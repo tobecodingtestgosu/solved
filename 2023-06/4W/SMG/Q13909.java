@@ -1,7 +1,6 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Q13909 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -14,19 +13,4 @@ public class Main {
 
         System.out.println(i-1);
     }
-
-//    static int[] openAndCloseWindows(int[] windows, int n){
-//        int i = n;
-//        while(i < windows.length){
-//            if(windows[i] == 1)
-//                windows[i]--;
-//            else
-//                windows[i]++;
-//
-//            i += (n+1);
-//        }
-
-//            System.out.println(n + Arrays.toString(windows));
-//            return windows;
-//        }
 }
